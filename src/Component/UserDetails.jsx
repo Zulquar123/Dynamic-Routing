@@ -12,13 +12,13 @@ export default function UserDetails() {
   return (
     <div className={`w-1/2 m-auto mt-5`}>
       <h1 className={`${Style} inline text-3xl font-bold`}>Hello {name}</h1>
-      <p className={`${Style}`}>
+      <p className={Style}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, odit
         voluptates? Accusantium ipsum a consequatur tempora itaque soluta dicta
         eius in? Incidunt, rem in! Voluptatum esse delectus officia incidunt
         sit.
       </p>
-      <button className={`${Style}`} onClick={gobackhandle}>
+      <button className={Style} onClick={gobackhandle}>
         Go Back
       </button>
     </div>

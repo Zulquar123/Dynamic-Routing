@@ -13,7 +13,7 @@ export default function Nav() {
   };
   return (
     <>
-      <nav className={`${nav}`}>
+      <nav className={nav}>
         <NavLink to="/" style={style}>
           Home
         </NavLink>
